@@ -1,0 +1,259 @@
+    1  pwd
+    2  exit
+    3  exit
+    4  cls
+    5  pwd
+    6  version
+    7  tree
+    8  exit
+    9  ver
+   10  git
+   11  pwd
+   12  cd demo/
+   13  ls
+   14  ls -a gitdemo/
+   15  ls -a cookbook/
+   16  git clone https://github.com/nusco/how-git-works
+   17  pwd
+   18  pwd
+   19  ls
+   20  pwd
+   21  cd how-git-works/
+   22  ls
+   23  ls -a
+   24  cd -al .git/
+   25  ls -al .git/
+   26  ls -al .git/refs/
+   27  git brach
+   28  git branch
+   29  ls -al .git/refs/heads/
+   30  git help
+   31  git help -g
+   32  git help -a
+   33  git help -a clone
+   34  You are not inside a devonfw-ide installation: /c/Users/aafzalan
+   35  aafzalan@INLEN8520050956 MINGW64 ~
+   36  $ ver
+   37  bash: ver: command not found
+   38  aafzalan@INLEN8520050956 MINGW64 ~
+   39  $ git
+   40  usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+   41             [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+   42             [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+   43             [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+   44             [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+   45             <command> [<args>]
+   46  These are common Git commands used in various situations:
+   47  start a working area (see also: git help tutorial)
+   48     clone     Clone a repository into a new directory
+   49     init      Create an empty Git repository or reinitialize an existing one
+   50  work on the current change (see also: git help everyday)
+   51     add       Add file contents to the index
+   52     mv        Move or rename a file, a directory, or a symlink
+   53     restore   Restore working tree files
+   54     rm        Remove files from the working tree and from the index
+   55  examine the history and state (see also: git help revisions)
+   56     bisect    Use binary search to find the commit that introduced a bug
+   57     diff      Show changes between commits, commit and working tree, etc
+   58     grep      Print lines matching a pattern
+   59     log       Show commit logs
+   60     show      Show various types of objects
+   61     status    Show the working tree status
+   62  grow, mark and tweak your common history
+   63     branch    List, create, or delete branches
+   64     commit    Record changes to the repository
+   65     merge     Join two or more development histories together
+   66     rebase    Reapply commits on top of another base tip
+   67     reset     Reset current HEAD to the specified state
+   68     switch    Switch branches
+   69     tag       Create, list, delete or verify a tag object signed with GPG
+   70  collaborate (see also: git help workflows)
+   71     fetch     Download objects and refs from another repository
+   72     pull      Fetch from and integrate with another repository or a local branch
+   73     push      Update remote refs along with associated objects
+   74  'git help -a' and 'git help -g' list available subcommands and some
+   75  concept guides. See 'git help <command>' or 'git help <concept>'
+   76  to read about a specific subcommand or concept.
+   77  See 'git help git' for an overview of the system.
+   78  aafzalan@INLEN8520050956 MINGW64 ~
+   79  $ pwd
+   80  /c/Users/aafzalan
+   81  aafzalan@INLEN8520050956 MINGW64 ~
+   82  $ cd demo/
+   83  aafzalan@INLEN8520050956 MINGW64 ~/demo
+   84  $ ls
+   85  cookbook/  gitdemo/
+   86  aafzalan@INLEN8520050956 MINGW64 ~/demo
+   87  $ ls -a gitdemo/
+   88  ./  ../  .git/
+   89  aafzalan@INLEN8520050956 MINGW64 ~/demo
+   90  $ ls -a cookbook/
+   91  ./  ../  .git/  menu.txt  recipes/
+   92  aafzalan@INLEN8520050956 MINGW64 ~/demo
+   93  $ git clone https://github.com/nusco/how-git-works
+   94  Cloning into 'how-git-works'...
+   95  remote: Enumerating objects: 48, done.
+   96  remote: Counting objects: 100% (48/48), done.
+   97  remote: Compressing objects: 100% (34/34), done.
+   98  remote: Total 48 (delta 12), reused 47 (delta 11), pack-reused 0
+   99  Receiving objects: 100% (48/48), 4.37 KiB | 2.19 MiB/s, done.
+  100  Resolving deltas: 100% (12/12), done.
+  101  aafzalan@INLEN8520050956 MINGW64 ~/demo
+  102  $ pwd
+  103  /c/Users/aafzalan/demo
+  104  aafzalan@INLEN8520050956 MINGW64 ~/demo
+  105  $ pwd
+  106  /c/Users/aafzalan/demo
+  107  aafzalan@INLEN8520050956 MINGW64 ~/demo
+  108  $ ls
+  109  cookbook/  gitdemo/  how-git-works/
+  110  aafzalan@INLEN8520050956 MINGW64 ~/demo
+  111  $ pwd
+  112  /c/Users/aafzalan/demo
+  113  aafzalan@INLEN8520050956 MINGW64 ~/demo
+  114  $ cd how-git-works/
+  115  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  116  $ ls
+  117  menu.txt  recipes/
+  118  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  119  $ ls -a
+  120  ./  ../  .git/  menu.txt  recipes/
+  121  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  122  $ cd -al .git/
+  123  bash: cd: -a: invalid option
+  124  cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+  125  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  126  $ ls -al .git/
+  127  total 13
+  128  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 ./
+  129  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 ../
+  130  -rw-r--r-- 1 aafzalan 1049089  21 Oct  7 15:29 HEAD
+  131  -rw-r--r-- 1 aafzalan 1049089 297 Oct  7 15:29 config
+  132  -rw-r--r-- 1 aafzalan 1049089  73 Oct  7 15:29 description
+  133  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 hooks/
+  134  -rw-r--r-- 1 aafzalan 1049089 449 Oct  7 15:29 index
+  135  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 info/
+  136  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 logs/
+  137  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 objects/
+  138  -rw-r--r-- 1 aafzalan 1049089 479 Oct  7 15:29 packed-refs
+  139  drwxr-xr-x 1 aafzalan 1049089   0 Oct  7 15:29 refs/
+  140  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  141  $ ls -al .git/refs/
+  142  total 4
+  143  drwxr-xr-x 1 aafzalan 1049089 0 Oct  7 15:29 ./
+  144  drwxr-xr-x 1 aafzalan 1049089 0 Oct  7 15:29 ../
+  145  drwxr-xr-x 1 aafzalan 1049089 0 Oct  7 15:29 heads/
+  146  drwxr-xr-x 1 aafzalan 1049089 0 Oct  7 15:29 remotes/
+  147  drwxr-xr-x 1 aafzalan 1049089 0 Oct  7 15:29 tags/
+  148  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  149  $ git brach
+  150  git: 'brach' is not a git command. See 'git --help'.
+  151  The most similar command is
+  152          branch
+  153  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  154  $ git branch
+  155  * main
+  156  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  157  $ ls -al .git/refs/heads/
+  158  total 1
+  159  drwxr-xr-x 1 aafzalan 1049089  0 Oct  7 15:29 ./
+  160  drwxr-xr-x 1 aafzalan 1049089  0 Oct  7 15:29 ../
+  161  -rw-r--r-- 1 aafzalan 1049089 41 Oct  7 15:29 main
+  162  aafzalan@INLEN8520050956 MINGW64 ~/demo/how-git-works (main)
+  163  $ git help
+  164  usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+  165             [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+  166             [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+  167             [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+  168             [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+  169             <command> [<args>]
+  170  These are common Git commands used in various situations:
+  171  start a working area (see also: git help tutorial)
+  172     clone     Clone a repository into a new directory
+  173     init      Create an empty Git repository or reinitialize an existing one
+  174  work on the current change (see also: git help everyday)
+  175     add       Add file contents to the index
+  176     mv        Move or rename a file, a directory, or a symlink
+  177     restore   Restore working tree files
+  178     rm        Remove files from the working tree and from the index
+  179  examine the history and state (see also: git help revisions)
+  180     bisect    Use binary search to find the commit that introduced a bug
+  181     diff      Show changes between commits, commit and working tree, etc
+  182     grep      Print lines matching a pattern
+  183     log       Show commit logs
+  184     show      Show various types of objects
+  185     status    Show the working tree status
+  186  grow, mark and tweak your common history
+  187     branch    List, create, or delete branches
+  188     commit    Record changes to the repository
+  189     merge     Join two or more development histories together
+  190     rebase    Reapply commits on top of another base tip
+  191     reset     Reset current HEAD to the specified state
+  192  pwd
+  193  cd demo
+  194  ls
+  195  rendir how-git-works how-git-works-old
+  196  pwd
+  197  pwd
+  198  mkdir fromGithubSelf
+  199  cd fromGithubSelf/
+  200  history
+  201  git -help
+  202  git
+  203  pwd
+  204  git clone -a
+  205  git clone -a |more
+  206  git clone https://github.com/afzalanwar2020/how-git-works.git
+  207  pwd
+  208  pwd
+  209  pwd
+  210  ls -a
+  211  cd how-git-works/
+  212  ls -a
+  213  brach
+  214  git branch
+  215  git branch -a
+  216  ls -alt
+  217  ls -alt
+  218  cd recipes/
+  219  ls
+  220  vi apple_pie.txt 
+  221  git status
+  222  git add  apple_pie.txt
+  223  git status
+  224  git commit -m "test for push"
+  225  git -a
+  226  git -help
+  227  git 
+  228  git show -a
+  229  git diff 
+  230  git diff main
+  231  git 
+  232  git show-ref main
+  233  git push
+  234  git show-ref main
+  235  git show-ref main
+  236  vi apple_pie.txt 
+  237  git add  apple_pie.txt
+  238  git commit -m "test for merge"
+  239  git show-ref main
+  240  git push
+  241  git pull
+  242  vi  recipes/apple_pie.txt 
+  243  pwd
+  244  vi  apple_pie.txt 
+  245  git pull -help
+  246  git pull -help |more
+  247  git pull -help |more
+  248  git pull -help
+  249  git show-ref main
+  250  git status
+  251  git push
+  252  git status
+  253  git show-ref main
+  254  git checkout help
+  255  git checkout -help
+  256  history
+  257  history -all
+  258  history 
+  259  history > anw-histrycommands
